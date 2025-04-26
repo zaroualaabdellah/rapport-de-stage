@@ -1,0 +1,43 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{Dédicace}{1}{chapter*.1}%
+\contentsline {chapter}{Résumé}{2}{chapter*.2}%
+\contentsline {paragraph}{}{2}{section*.3}%
+\contentsline {chapter}{Abstract}{3}{chapter*.4}%
+\contentsline {paragraph}{}{3}{section*.5}%
+\contentsline {chapter}{Table des matières}{4}{chapter*.7}%
+\contentsline {chapter}{Liste des figures}{5}{chapter*.9}%
+\contentsline {chapter}{Liste des tableaux}{6}{section*.10}%
+\contentsline {chapter}{Introduction Générale}{7}{chapter*.12}%
+\contentsline {paragraph}{}{7}{section*.13}%
+\contentsline {chapter}{\numberline {1}Chapitre 1 : Intelligence artificielle générative}{8}{chapter.1}%
+\contentsline {section}{Introduction}{8}{section*.15}%
+\contentsline {paragraph}{}{8}{section*.16}%
+\contentsline {section}{\numberline {1.1}Quelles techniques sont utilisées dans l’IA générative ?}{8}{section.1.1}%
+\contentsline {paragraph}{}{8}{section*.17}%
+\contentsline {section}{\numberline {1.2}A quoi sert l'IA générative ?}{8}{section.1.2}%
+\contentsline {paragraph}{}{8}{section*.18}%
+\contentsline {section}{\numberline {1.3}Quels sont les inconvénients de l’IA générative ?}{9}{section.1.3}%
+\contentsline {paragraph}{}{9}{section*.19}%
+\contentsline {section}{\numberline {1.4}Quels sont les avantages de l’IA générative ?}{9}{section.1.4}%
+\contentsline {paragraph}{}{9}{section*.20}%
+\contentsline {subsection}{\numberline {1.4.1}Sous section 2}{10}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Sous section 3}{10}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}Exemple de figure 1}{11}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Exemple de figure avec une image large}{11}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Exemple de tableau}{12}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Exemple de tableau 1}{12}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Exemple de tableau 2 sans bordures}{12}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}Exemple de tableau 3 avec des lignes verticales}{12}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.4}Exemple de tableau 4 avec des lignes horizontales}{12}{subsection.1.7.4}%
+\contentsline {section}{\numberline {1.8}Exemples des équations mathématiques}{12}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Exemple de code source}{13}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Exemple de citation}{13}{section.1.10}%
+\contentsline {paragraph}{}{13}{section*.27}%
+\contentsline {section}{\numberline {1.11}Diagramme de Gantt}{14}{section.1.11}%
+\contentsline {paragraph}{}{14}{figure.caption.29}%
+\contentsline {section}{\numberline {1.12}Exemple de liste à puces}{14}{section.1.12}%
+\contentsline {paragraph}{}{14}{section*.30}%
+\contentsline {section}{\numberline {1.13}Exemple de liste numérotée}{14}{section.1.13}%
+\contentsline {paragraph}{}{14}{section*.31}%
+\contentsline {section}{Conclusion}{15}{section*.32}%
+\contentsline {paragraph}{}{15}{section*.33}%
