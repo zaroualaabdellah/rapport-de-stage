@@ -1,10 +1,15 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Page de Abstract
-
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}
-\paragraph{}
-\textit{The abstract of your work in English.} \\[0.5cm]
-\lipsum[1-2] \\
-\textbf{Keywords :} Keyword 1, Keyword 2, Keyword 3, Keyword 4, Keyword 5
+
+\paragraph{}\begin{spacing}{2}
+
+Most online learning platforms encourage their users to explore various topics before committing to a specialization and to develop a broad academic culture by following diverse learning paths. Each term, learners must choose a limited selection of courses to take from among thousands of available options in many fields. The online environment is also highly dynamic, and insufficient communication as well as poorly performing search functions can limit learners’ ability to discover new courses suited to their interests.
+
+To support both learners and educational advisors in this context, we explore an innovative online course recommendation system based on a large language model (LLM) using a Retrieval-Augmented Generation (RAG) method applied to a corpus of course descriptions. The system first generates an "ideal" course description from the user’s query or profile. This description is converted into a search vector via embeddings, which is then used to retrieve actual courses with similar content by comparing embedding similarities.
+
+We describe the method and evaluate the quality and relevance of some example queries. The steps to deploy a pilot system on an online learning platform are also discussed.
+
+\medskip
+
+\textbf{Keywords:} recommendation systems, large language models, retrieval-augmented generation, educational technology, online course recommendation
+\end{spacing}

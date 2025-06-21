@@ -1,12 +1,20 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Page de Résumé en francais
+ 
 
 \chapter*{Résumé}
 \addcontentsline{toc}{chapter}{Résumé}
 
-\paragraph{}
-\textit{Le résumé de votre travail en français.} \\[0.5cm]
-\lipsum[1-2] \\
-\textbf{Mots clés :} Mot clé 1, Mot clé 2, Mot clé 3, Mot clé 4, Mot clé 5
+\paragraph{}\begin{spacing}{2}
 
+La plupart des plateformes d’enseignement en ligne encouragent leurs utilisateurs à explorer différentes thématiques avant de s’engager dans une spécialisation, et à développer une culture académique large en suivant des parcours diversifiés. Chaque période, les apprenants doivent choisir, parmi des milliers de cours disponibles dans de nombreux domaines, une sélection restreinte de formations à suivre. L’environnement en ligne est également très dynamique, et une communication insuffisante ainsi que des fonctions de recherche peu performantes peuvent limiter la capacité des apprenants à découvrir de nouveaux cours adaptés à leurs intérêts.
+
+Pour aider à la fois les apprenants et les conseillers pédagogiques dans ce contexte, nous explorons un système novateur de recommandation de cours en ligne basé sur un grand modèle de langage (LLM) utilisant une méthode de \textit{Retrieval Augmented Generation} (RAG) appliquée au corpus des descriptions de cours. Le système génère d’abord une description de cours « idéale » à partir de la requête ou du profil de l’utilisateur. Cette description est convertie en un vecteur de recherche via des embeddings, qui est ensuite utilisé pour retrouver des cours réels au contenu similaire en comparant les similarités d’embeddings.
+
+Nous décrivons la méthode et évaluons la qualité ainsi que la pertinence de certains exemples de requêtes. Les étapes pour déployer un système pilote sur une plateforme d’apprentissage en ligne sont également discutées.
+
+\medskip
+
+\textbf{Mots-clés :} systèmes de recommandation, grands modèles de langage, génération augmentée par récupération, technologie éducative, recommandation de cours en ligne
+\end{spacing}
