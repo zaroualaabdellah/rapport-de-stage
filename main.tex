@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{report} 
+\documentclass[a4paper,12pt]{report}  
 \usepackage{setspace}
 \usepackage[french]{babel} 
 \usepackage{ragged2e}
@@ -18,6 +18,7 @@
 \usepackage{amsmath}
 \usepackage{caption}
 \usepackage{enumitem}
+
 \setlength{\headheight}{14.61858pt}
 \definecolor{blue}{RGB}{31,56,100}
 \hypersetup{
@@ -30,7 +31,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Modifier Selon vos informations visibles (Choisir un titre bref et précis)
-\newcommand{\mytitle}{Système de recommandation basé sur l'IA générative}
+\newcommand{\mytitle}{Système de recommandation de cours éducatifs basé sur l'IA générative}
 \newcommand{\myname}{M. Zarouala Abdellah}
 \newcommand{\mylogo}{\includegraphics[height=1.8cm]{./images/Ste_logo.jpg}} 
 
@@ -39,7 +40,7 @@
 \fancypagestyle{firstpages}{
     \fancyhf{}  
     \renewcommand{\headrulewidth}{0pt}  
-    \fancyfoot[C]{\thepage}  
+      
     \pagenumbering{arabic}  
 }
 
@@ -113,10 +114,15 @@
 
 % Liste des tableaux
 \phantomsection
-\addcontentsline{toc}{chapter}{Liste des tableaux}
 \listoftables
+\addcontentsline{toc}{chapter}{Liste des tableaux}
 \newpage
 
+% Liste des tableaux
+\phantomsection
+\input{chapters/Liste des abréviations.tex}
+
+\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   
@@ -135,4 +141,9 @@
 \input{chapters/chapter_4.tex}
 \newpage
 \input{chapters/chapter_5.tex}
+\newpage
+\input{chapters/conclusion.tex}
+\newpage
+\input{chapters/bibliographie.tex}
+ 
 \end{document}

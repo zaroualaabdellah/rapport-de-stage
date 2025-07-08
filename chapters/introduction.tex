@@ -1,7 +1,36 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Introduction
-\chapter*{Introduction Générale}
-\addcontentsline{toc}{chapter}{Introduction Générale}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[L]{%
+  \begin{tabular}{@{}l@{}}
+    \leftmark \\
+    \rule{\textwidth}{0.4pt} % Ligne de soulignement sur toute la largeur
+  \end{tabular}
+}
+\fancyfoot[L]{Système de recommandation de cours éducatifs basé sur l’IA générative}     
+\fancyfoot[R]{\thepage} 
+
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\chapter*{Introduction Générale} 
 \paragraph{}
-\lipsum[1-3]
+
+Dans un monde en constante évolution, où les compétences requises sur le marché du travail changent rapidement, l’adaptation continue des parcours de formation devient un enjeu stratégique tant pour les individus que pour les organisations. La transformation numérique a bouleversé de nombreux secteurs, et le domaine de l’éducation et de la formation n’y échappe pas. Dans ce contexte, les technologies de l’intelligence artificielle (IA) offrent aujourd’hui des solutions puissantes pour répondre aux nouveaux besoins de personnalisation, d’automatisation et d’assistance intelligente à l’apprentissage.
+
+L’émergence des modèles de langage de grande taille (LLM - \textit{Large Language Models}), tels que GPT, LLaMA ou Claude, a marqué un tournant dans la manière dont les machines interagissent avec le langage humain. Ces modèles sont capables de comprendre, générer et manipuler du texte de manière de plus en plus fluide, ouvrant la voie à des applications variées : agents conversationnels, assistants rédactionnels, moteurs de recherche augmentés, ou encore systèmes de recommandation intelligents. Combinés à des techniques comme le RAG (\textit{Retrieval-Augmented Generation}), qui permettent d’enrichir les réponses générées par l’IA à partir de données fiables et ciblées, ces modèles deviennent des outils puissants pour produire des recommandations contextuelles, pertinentes et personnalisées.
+
+C’est dans cette optique que s’inscrit le projet de stage intitulé \textbf{« Système de recommandation basé sur l’IA générative »}, dont l’objectif est de développer une plateforme intelligente capable de recommander des \textbf{cours personnalisés} à un utilisateur, à partir de l’analyse automatisée de son \textbf{curriculum vitae (CV)}. Concrètement, l’utilisateur téléverse son CV (en format PDF, Word ou texte), et le système, à l’aide d’un \textbf{LLM embarqué localement via la plateforme Ollama}, analyse le contenu du document, extrait les informations clés (formations, compétences, expériences professionnelles, etc.), puis interroge une base de connaissances de cours afin de proposer une liste pertinente de formations adaptées à son profil, ses objectifs, ou ses lacunes identifiées.
+
+Pour ce faire, le système repose sur plusieurs briques technologiques modernes :
+\begin{itemize}
+    \item \textbf{LLaMA 3.2}, un modèle de langage performant, local et open-source, permettant d’assurer à la fois puissance et confidentialité des données ;
+    \item \textbf{Ollama}, une plateforme facilitant l’intégration et le déploiement local de modèles LLM sans dépendance directe au cloud ;
+    \item \textbf{RAG (Retrieval-Augmented Generation)}, qui permet d’interroger dynamiquement une base de cours structurée afin de renforcer la pertinence des recommandations ;
+    \item Une interface utilisateur développée avec \textbf{Streamlit}, offrant une expérience fluide et intuitive.
+\end{itemize}
+
+Ce projet se distingue par sa capacité à \textbf{automatiser le processus de recommandation de formation}, en le rendant à la fois \textbf{intelligent, interactif et respectueux des données personnelles}, puisque l’intégralité du traitement est effectuée en local. Il constitue une avancée significative dans le domaine de la formation personnalisée, avec des perspectives d’utilisation dans des plateformes de recrutement, des centres de formation ou même dans le cadre de l’orientation professionnelle.
+
+Le présent rapport de stage s’articule autour des axes suivants : nous commencerons par présenter le \textbf{contexte général du projet} et les motivations qui ont conduit à son développement. Ensuite, nous détaillerons les \textbf{choix technologiques}, l’\textbf{architecture du système}, ainsi que les étapes de conception et d’intégration des différents modules. Nous aborderons par la suite les \textbf{résultats obtenus}, les tests effectués, et les \textbf{limites identifiées}, avant de conclure par une ouverture sur les améliorations possibles et les perspectives futures du projet.

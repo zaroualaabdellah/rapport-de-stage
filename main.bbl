@@ -1,0 +1,54 @@
+\begin{thebibliography}{1}
+
+\bibitem{adomavicius2005toward}
+Gediminas Adomavicius and Alexander Tuzhilin.
+\newblock Toward the next generation of recommender systems: A survey of the
+  state-of-the-art and possible extensions.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  17(6):734--749, 2005.
+
+\bibitem{medium2023recommendation}
+John Doe.
+\newblock Understanding recommender systems: A beginner's guide, 2023.
+\newblock Consulté le 23 juin 2025.
+
+\bibitem{goodfellow2016deep}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock Deep learning, 2016.
+
+\bibitem{huggingface2023llama}
+{Hugging Face}.
+\newblock Introduction to llama models, 2023.
+\newblock Consulté le 23 juin 2025.
+
+\bibitem{meta2023llama}
+{Meta AI}.
+\newblock Llama: Open and efficient foundation language models, 2023.
+\newblock Consulté le 23 juin 2025.
+
+\bibitem{ricci2015recommender}
+Francesco Ricci, Lior Rokach, and Bracha Shapira.
+\newblock {\em Recommender Systems Handbook}.
+\newblock Springer, Boston, MA, 2nd edition, 2015.
+
+\bibitem{towardsdatascience2023}
+Jane Smith.
+\newblock How large language models are transforming recommendation systems,
+  2023.
+\newblock Consulté le 23 juin 2025.
+
+\bibitem{touvron2023llama}
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne
+  Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro,
+  Faisal Azhar, et~al.
+\newblock Llama: Open and efficient foundation language models.
+\newblock {\em arXiv preprint arXiv:2302.13971}, 2023.
+
+\bibitem{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, Łukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~30, 2017.
+
+\end{thebibliography}

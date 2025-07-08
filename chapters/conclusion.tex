@@ -2,6 +2,31 @@
 %%  Conclusion Générale
 \chapter*{Conclusion Générale et Perspectives}
 \addcontentsline{toc}{chapter}{Conclusion Générale et Perspectives}
-\lipsum[1] \cite{ref1}
 \paragraph{}
-\lipsum[1] \cite{ref2}
+Ce mémoire a présenté le développement d’un \textbf{système de recommandation de cours personnalisé basé sur l’intelligence artificielle générative}, dont le principe repose sur l’analyse automatique d’un CV afin de proposer des formations adaptées au profil de l’utilisateur. Grâce à l’utilisation de technologies récentes et puissantes telles que les modèles de langage de grande taille (\textit{Large Language Models}) et l’approche \textit{Retrieval-Augmented Generation} (RAG), il a été possible de concevoir une solution intelligente, fonctionnelle et évolutive.
+
+Le modèle \textbf{LLaMA 3.2}, intégré localement à l’aide de la plateforme \textbf{Ollama}, a permis d’effectuer le traitement linguistique de manière fluide tout en assurant la confidentialité des données. Le système peut extraire les informations clés du CV (formations, compétences, expériences, etc.), interroger une base de cours préalablement construite, et proposer des recommandations pertinentes via une interface simple et accessible. L’approche mise en œuvre permet non seulement d'automatiser le processus de recommandation, mais aussi de le personnaliser en fonction du parcours de l'utilisateur.
+
+Ce travail nous a permis de mettre en pratique plusieurs compétences acquises durant la formation, notamment en traitement du langage naturel, en intelligence artificielle, en développement d’interfaces web et en structuration de bases de données. Il a également ouvert la voie à une réflexion sur l’impact de l’IA dans l’éducation, l’orientation professionnelle et la formation tout au long de la vie.
+
+\bigskip
+
+Cependant, bien que les résultats obtenus soient prometteurs, plusieurs \textbf{perspectives d’amélioration} peuvent être envisagées pour enrichir le système et en accroître l’efficacité :
+
+\begin{itemize}
+    \item \textbf{Enrichissement de la base de cours} : Actuellement limitée, la base de données pourrait être étendue à des catalogues réels de plateformes d’e-learning telles que Coursera, edX, ou Udemy, afin de diversifier les recommandations.
+    
+    \item \textbf{Personnalisation avancée} : L’ajout d’un système de profil utilisateur, permettant de renseigner les préférences, objectifs ou contraintes, permettrait d’affiner les recommandations de manière plus précise.
+    
+    \item \textbf{Évaluation de la pertinence des suggestions} : Intégrer un système de feedback utilisateur pour mesurer la satisfaction vis-à-vis des cours proposés permettrait une amélioration continue des performances du modèle, notamment à l’aide de l’apprentissage par renforcement.
+    
+    \item \textbf{Optimisation de l’extraction d’informations} : Utiliser des techniques plus avancées de traitement du langage naturel (comme la reconnaissance d’entités nommées ou la classification automatique des compétences) pourrait rendre l’analyse du CV plus fine et plus fiable.
+    
+    \item \textbf{Déploiement dans un environnement réel} : Une expérimentation au sein d’un établissement universitaire ou d’un centre de formation permettrait d’évaluer le système à grande échelle et de mieux comprendre les besoins des utilisateurs finaux.
+    
+    \item \textbf{Sécurité et respect de la vie privée} : Bien que le traitement soit local, des mesures supplémentaires de sécurité et de conformité (RGPD, chiffrement, anonymisation) peuvent être envisagées pour renforcer la confiance des utilisateurs.
+\end{itemize}
+
+\bigskip
+\paragraph{}
+En conclusion, ce projet constitue une contribution concrète à l’intégration de l’intelligence artificielle dans le domaine de la formation personnalisée. Il ouvre des perspectives intéressantes pour le développement de systèmes intelligents capables d’accompagner les individus dans leur parcours professionnel, en tenant compte de leurs compétences, de leurs ambitions et des évolutions du marché du travail.

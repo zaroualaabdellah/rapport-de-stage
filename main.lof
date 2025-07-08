@@ -1,18 +1,38 @@
 \babel@toc {french}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces VAE Illustration}}{13}{figure.1.1}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Transformateurs}}{14}{figure.1.2}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces L’avenir de l'IA générative}}{14}{figure.1.3}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Exemple de modèle de diffusion}}{16}{figure.1.4}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces GAN (réseaux antagonistes génératifs)}}{17}{figure.1.5}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Exemple d'autoencodeur variationnel (VAE)}}{17}{figure.1.6}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Modèle basé sur un transformateur}}{18}{figure.1.7}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces VAE Illustration}}{15}{figure.1.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Transformateurs}}{16}{figure.1.2}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces L’avenir de l'IA générative}}{16}{figure.1.3}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Exemple de modèle de diffusion}}{18}{figure.1.4}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces GAN (réseaux antagonistes génératifs)}}{19}{figure.1.5}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Exemple d'autoencodeur variationnel (VAE)}}{19}{figure.1.6}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Modèle basé sur un transformateur}}{20}{figure.1.7}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Classification des systèmes de recommandation (Isinkaye et al., 2015)}}{33}{figure.caption.89}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Structure en arbre d’un simple site web.PRES [Maarten et Someren, 2000]}}{34}{figure.caption.93}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Filtrage collaboratif basé sur les éléments.}}{36}{figure.caption.99}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Classification des systèmes de recommandation (Isinkaye et al., 2015)}}{35}{figure.caption.91}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Structure en arbre d’un simple site web.PRES [Maarten et Someren, 2000]}}{36}{figure.caption.95}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Filtrage collaboratif basé sur les éléments.}}{38}{figure.caption.101}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Pipeline hybride LLM-Embedding pour les recommandations de cours}}{47}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Phases de la Génération du Contexte}}{48}{figure.3.2}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Pipeline hybride LLM-Embedding pour les recommandations de cours}}{49}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Phases de la Génération du Contexte}}{50}{figure.3.2}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagramme de cas d'utilisation du système}}{54}{figure.caption.134}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagramme de séquence du système}}{55}{figure.caption.136}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagramme d'activité représentant le déroulement des actions du système}}{56}{figure.caption.138}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Logo UML}}{58}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Agents d’IA vs. LLMs}}{59}{figure.caption.154}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Logo de CrewAI}}{60}{figure.caption.166}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Principaux avantages offerts par CrewAI}}{62}{figure.caption.173}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Logo de Streamlit}}{65}{figure.caption.186}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Interface ou composant lié à MySQL}}{66}{figure.caption.191}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Interface de la page d'inscription}}{69}{figure.caption.194}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Interface de la page d'inscription}}{70}{figure.caption.197}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Interface de la page d'accueil après connexion}}{71}{figure.caption.200}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Formulaire de saisie manuelle des informations utilisateur}}{71}{figure.caption.201}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Page d’historique des recommandations de cours}}{72}{figure.caption.204}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Interface de sélection du fichier CV}}{72}{figure.5.12}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Indicateur de chargement pendant l’analyse du CV}}{73}{figure.5.13}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Aperçu des données extraites du CV}}{73}{figure.5.14}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Analyse du profil de l'utilisateur}}{74}{figure.5.15}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Création des recommandations personnalisées}}{74}{figure.5.16}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Affichage final des recommandations de cours}}{75}{figure.5.17}%

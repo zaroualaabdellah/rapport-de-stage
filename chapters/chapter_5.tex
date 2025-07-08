@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Chapitre 5
-\chapter{Chapitre 5 : Réalisation}
+\chapter{Réalisation}
 
 %%%%% Intro Chapitre 4
 \section*{Introduction}
@@ -18,8 +18,12 @@ Dans ce chapitre, nous allons survoler les différents choix techniques pour les
 \subsection{Langage UML}
 \paragraph{}
 De nos jours, pour pouvoir spécifier et exprimer les besoins et les exigences des acteurs, du système et de l’architecture globale, plusieurs outils de modélisation de processus métier se sont présentés.
-\includegraphics[width=\linewidth, height=5cm]{images/UML_logo.svg.png}
 
+\begin{minipage}{1\textwidth}
+		\centering
+		\includegraphics[width=\linewidth, height=5cm]{images/UML_logo.svg.png}
+		\captionof{figure}{Logo UML}
+\end{minipage}
 \paragraph{}
 La modélisation \textbf{UML} permet de vulgariser les aspects liés à la conception et à l’architecture, propres au logiciel, au client. Aussi, elle apporte une compréhension rapide du programme à d’autres développeurs externes en cas de reprise du logiciel et facilite sa maintenance.
 \paragraph{}
@@ -53,7 +57,11 @@ Dans cet article, je vais répondre à cette question et vous présenter CrewAI,
 \paragraph{}
 Démystifions un malentendu courant concernant la différence entre les agents et les grands modèles linguistiques (LLM). Tous deux appartiennent à la famille de l'intelligence artificielle, mais ils possèdent des capacités distinctes.
 
-\includegraphics[width=\linewidth, height=5cm]{images/agentVsLLM.png}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth, height=5cm]{images/agentVsLLM.png}
+    \caption{Agents d’IA vs. LLMs} 
+\end{figure}
 
 \paragraph{}
 Les modèles linguistiques, tels que ChatGPT et Geminisont très habiles dans l'utilisation du langage. Ils ont suivi une formation approfondie sur de grandes quantités de textes et de codes, ce qui les a dotés de la capacité de comprendre et de produire un langage qui ressemble beaucoup à la communication humaine.
@@ -91,7 +99,11 @@ CrewAI est un framework Python open-source conçu pour soutenir le développemen
 \paragraph{}
 CrewAI améliore ces systèmes d'IA en attribuant des rôles spécifiques, en permettant une prise de décision autonome et en facilitant la communication entre les agents. Cette approche leur permet de s'attaquer à des problèmes complexes plus efficacement que des agents travaillant seuls.
 
-\includegraphics[width=\linewidth, height=5cm]{images/crewai.png}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth, height=5cm]{images/crewai.png}
+    \caption{Logo de CrewAI} 
+\end{figure}
  
 \noindent
 Ce cadre se compose d'une série d'outils, notamment des moteurs de recherche sur le web et des modèles linguistiques, qui permettent aux agents d'entrer en contact avec le monde extérieur, de collecter des informations et d'agir pour atteindre leurs objectifs.
@@ -140,7 +152,12 @@ Le cadre prend également en charge l'adaptabilité, ce qui permet aux agents d'
 
 \noindent
 En outre, Crew.ai simplifie le processus de développement grâce à une plateforme conviviale pour la création et la gestion de systèmes multi-agents.
-\includegraphics[width=\linewidth, height=7cm]{images/key benefits of.png}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth, height=7cm]{images/key benefits of.png}
+    \caption{Principaux avantages offerts par CrewAI} 
+\end{figure}
+
 
 \paragraph{}
 Un autre point fort de CrewAI est son intégration avec une large gamme d'outils. Cela étend les capacités des agents, leur permettant d'interagir avec le monde extérieur et de recueillir des informations.
@@ -287,8 +304,11 @@ Streamlit est un framework gratuit et open-source qui permet de créer et de par
 Il s'agit d'une bibliothèque basée sur Python spécifiquement conçue pour les ingénieurs en apprentissage automatique. Les scientifiques des données ou les ingénieurs en apprentissage automatique ne sont pas des développeurs web et ils n'ont pas envie de passer des semaines à apprendre à utiliser ces frameworks pour créer des applications web. Ils souhaitent plutôt un outil plus facile à apprendre et à utiliser, pour autant qu'il puisse afficher des données et collecter les paramètres nécessaires à la modélisation.
 \paragraph{}
 Streamlit vous permet de créer une application à l'apparence étonnante avec seulement quelques lignes de code.
- \includegraphics[width=\linewidth, height=7cm]{images/streamlit-logo-secondary-colormark-darktext.png}
-
+ \begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth, height=7cm]{images/streamlit-logo-secondary-colormark-darktext.png}
+    \caption{Logo de Streamlit} 
+\end{figure}
  \paragraph{}
  L'avantage de Streamlit est que vous n'avez même pas besoin de connaître les bases du développement web pour commencer ou pour créer votre première application web. Si vous êtes un adepte de la science des données et que vous souhaitez déployer vos modèles facilement, rapidement et avec seulement quelques lignes de code, Streamlit est un bon choix.
 
@@ -309,8 +329,12 @@ Streamlit est le moyen le plus simple, en particulier pour les personnes qui n'o
 \section{Base de Données : MySQL}
 \paragraph{}
 MySQL est un système de gestion de base de données relationnelle open source. Il est utilisé pour stocker et gérer les données collectées par les capteurs, les informations des utilisateurs et les historiques des données. MySQL est connu pour sa performance, sa fiabilité et sa facilité d'utilisation.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth, height=7cm]{images/Capture d’écran (200).png}
+    \caption{Interface ou composant lié à MySQL} 
+\end{figure}
 
- \includegraphics[width=\linewidth, height=7cm]{images/Capture d’écran (200).png}
 \newpage
  \section{Procédure de Déploiement de l'Application Streamlit}
 
@@ -391,4 +415,213 @@ Quelques commandes utiles pour déboguer :
   \item \texttt{streamlit logs} : pour consulter les journaux
   \item \texttt{pip list} : pour vérifier les packages installés
 \end{itemize}
+\newpage
+\section{Interfaces graphiques web}
 
+
+\subsection*{Page d'authentification}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{images/auth.png}
+    \caption{Interface de la page d'inscription}
+\end{figure}
+
+
+\subsection*{Page d'inscription}
+\paragraph{}
+La page d'inscription permet aux nouveaux utilisateurs de créer un compte sur la plateforme. Elle comprend plusieurs champs à remplir afin de recueillir les informations nécessaires à l’identification de l’utilisateur.
+\hfill \break
+\begin{itemize}
+  \item \textbf{Nom d'utilisateur} : Identifiant unique choisi par l'utilisateur.
+  \hfill \break
+  \item \textbf{Nom complet} : Prénom et nom de famille de l'utilisateur.
+  \hfill \break
+  \item \textbf{Adresse e-mail} : Utilisée pour l'identification et les communications.
+  \hfill \break
+  \item \textbf{Mot de passe} : Doit être sécurisé et confidentiel.
+  \hfill \break
+  \item \textbf{Confirmation du mot de passe} : Pour s'assurer que le mot de passe a été correctement saisi.
+\end{itemize}
+\hfill \break
+Après avoir complété tous les champs, l'utilisateur clique sur le bouton \textbf{« S'inscrire »}.
+
+\medskip
+
+\noindent
+\textbf{Message de confirmation :} Si l'inscription est réussie, un message s'affiche à l'écran : \textit{« Votre compte a été créé avec succès. »}
+
+\vspace{0.5cm}
+\hfill \break
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{images/inscription.png}
+    \caption{Interface de la page d'inscription}
+\end{figure}
+
+\noindent
+\newpage
+\subsection*{Page d'accueil après authentification}
+\paragraph{}
+Après une authentification réussie, l'utilisateur est redirigé vers la page d'accueil de la plateforme. Cette interface permet d'afficher les informations personnelles de l'utilisateur et de lui proposer diverses fonctionnalités.
+\begin{itemize}
+  \item \textbf{Nom d'utilisateur} et \textbf{adresse e-mail} : Ces informations sont affichées en haut de la page pour confirmer l'identité de l'utilisateur connecté.
+  \item \textbf{Bouton « Se déconnecter »} : Permet à l'utilisateur de se déconnecter de la session en cours.
+  \item \textbf{Menu de navigation} : Permet d’accéder aux différentes pages de la plateforme :
+  \begin{itemize}
+    \item \textit{Liste des recommandations déjà effectuées} : Affiche les recommandations de cours générées précédemment pour l'utilisateur.
+    \item \textit{Téléverser un CV} : L'utilisateur peut uploader son CV au format PDF ou Word pour permettre une analyse automatique de ses compétences et centres d’intérêt.
+    \item \textit{Remplir manuellement un formulaire} : Permet à l’utilisateur de saisir manuellement ses informations (formation, compétences, intérêts) afin d’obtenir une recommandation personnalisée.
+  \end{itemize}
+\end{itemize}
+ 
+\begin{center}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/acceuil.png}
+    \caption{Interface de la page d'accueil après connexion}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/formulaireCV.png}
+    \caption{Formulaire de saisie manuelle des informations utilisateur}
+\end{figure}
+\end{center}
+
+\noindent
+\newpage
+\subsection*{Page historique des recommandations}
+\paragraph{}
+Cette page permet à l’utilisateur de consulter l’historique de ses recommandations de cours déjà générées par le système. Elle est utile pour garder une trace des suggestions passées et pour revenir sur les propositions faites à différents moments.
+
+\medskip
+\hfill \break
+\noindent Les informations affichées pour chaque recommandation incluent :
+
+\begin{itemize}
+  \item \textbf{Date et heure} de la recommandation : Permet à l'utilisateur de savoir quand la suggestion a été générée.
+  \item \textbf{Liste des cours recommandés} : Cours proposés par le système en fonction du profil et des données de l'utilisateur (CV ou formulaire).
+  \item \textbf{Méthode utilisée} : Indique si la recommandation a été faite à partir d'un CV téléversé ou d'un formulaire rempli manuellement.
+\end{itemize}
+
+\medskip
+
+\noindent L’historique est affiché sous forme de tableau ou de liste, triée du plus récent au plus ancien.
+
+\vspace{0.5cm}
+\hfill \break
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{images/page_historique.png} % Remplacer par le bon chemin
+    \caption{Page d’historique des recommandations de cours} 
+\end{figure}
+
+
+ \noindent
+
+\newpage
+\subsection*{Démarche détaillée pour la génération des recommandations}
+
+\paragraph{}
+Le système de recommandation repose sur une série d'étapes automatisées, simples à suivre, permettant à l’utilisateur de recevoir des suggestions de cours adaptées à son profil. Voici les étapes détaillées de ce processus :
+
+\subsubsection*{Étape 1 : Sélection du fichier CV}
+
+L'utilisateur commence par cliquer sur le bouton \textbf{« Parcourir »} afin d’accéder aux fichiers présents sur son ordinateur. Il peut alors sélectionner un fichier contenant son CV.
+
+\begin{itemize}
+  \item \textbf{Formats autorisés} : \texttt{.pdf}, \texttt{.docx}, \texttt{.txt}
+  \item \textbf{Action utilisateur} : Sélectionner le fichier à importer.
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{images/img1.png}
+\captionof{figure}{Interface de sélection du fichier CV}
+\end{center}
+
+\vspace{0.3cm}
+
+\subsubsection*{Étape 2 : Lancement de l’analyse}
+
+Une fois le fichier sélectionné, le système démarre automatiquement l’analyse du CV. Un indicateur de chargement (spinner) apparaît avec le message suivant :
+
+\begin{center}
+\textit{« Analyse de votre CV... »}
+\end{center}
+
+\begin{itemize}
+  \item \textbf{Action utilisateur} : Attendre la fin de l’analyse.
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{images/analyse cv.png}
+\captionof{figure}{Indicateur de chargement pendant l’analyse du CV}
+\end{center}
+
+\vspace{0.3cm}
+
+\subsubsection*{Étape 3 : Affichage des informations extraites}
+
+Après l’analyse, les données extraites du CV sont affichées dans un formulaire prérempli. L’utilisateur peut les corriger ou les compléter.
+
+\begin{itemize}
+  \item \textbf{Informations extraites} : nom, diplôme, compétences, centres d’intérêt, expériences, etc.
+  \item \textbf{Action utilisateur} : Vérifier les données et les modifier si nécessaire.
+  \item \textbf{Action finale} : Cliquer sur le bouton \textbf{« Obtenir des recommandations »}.
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=0.85\textwidth]{images/afficher les information extrair.png}
+\captionof{figure}{Aperçu des données extraites du CV}
+\end{center}
+
+\vspace{0.3cm}
+
+\subsubsection*{Étape 4 : Analyse du profil}
+
+Une fois le formulaire validé, le système entame la première phase de traitement. Un message et un indicateur de progression sont affichés :
+
+\begin{center}
+\textit{« Étape 1/2 : Analyse de votre profil et sélection des cours... »}
+\end{center}
+
+\begin{itemize}
+  \item \textbf{Action utilisateur} : Attendre pendant le traitement.
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=0.65\textwidth]{images/analyse de donner cv.png}
+\captionof{figure}{Analyse du profil de l'utilisateur}
+\end{center}
+
+\vspace{0.3cm}
+
+\subsubsection*{Étape 5 : Création des recommandations}
+
+Le système passe ensuite à la deuxième phase, consistant à générer les recommandations personnalisées en fonction du profil analysé.
+
+\begin{center}
+\textit{« Étape 2/2 : Création de recommandations personnalisées... »}
+\end{center}
+
+\begin{center}
+\includegraphics[width=0.65\textwidth]{images/creation des recommodation.png}
+\captionof{figure}{Création des recommandations personnalisées}
+\end{center}
+
+\vspace{0.3cm}
+
+\subsubsection*{Étape 6 : Résultat final}
+
+À la fin du processus, le système affiche un message en vert confirmant que les recommandations sont prêtes :
+
+\begin{center}
+\textbf{« Recommandations terminées ! »}
+\end{center}
+
+La liste des cours suggérés est ensuite affichée sur la page avec la possibilité de les consulter ou les enregistrer.
+
+\begin{center}
+\includegraphics[width=0.85\textwidth]{images/afiicher le recomodation.png}
+\captionof{figure}{Affichage final des recommandations de cours}
+\end{center}
